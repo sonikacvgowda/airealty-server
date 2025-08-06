@@ -15,11 +15,18 @@ This is the backend server for the AIRealty customer onboarding project. It hand
 
 ---
 
+## 🔗 Live Deployment
+
+- **Render Backend URL:** [https://airealty-server.onrender.com](https://airealty-server.onrender.com)
+
+---
+
 ## 📂 Folder Structure
-server/
+AIRealtyProject/
+└── server/
+├── index.js # Main Express server
 ├── models/
 │ └── Form.js # Mongoose schema for form data
-├── index.js # Main Express server file
-├── .env # Environment variables (MongoDB URI)
+├── .env # Environment variables (not pushed to GitHub)
 ├── package.json
 └── README.md
